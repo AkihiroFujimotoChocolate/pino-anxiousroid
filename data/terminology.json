@@ -1,0 +1,1523 @@
+[
+    {
+        "index_regex": "Jashin-chan|邪神ちゃん|じゃしんちゃん|ジャシンチャン|大蛇丸|おろちまる|オロチマル",
+        "categories": ["person"],
+        "name": "邪神ちゃん",
+        "description": " 突如として女子大生の花園ゆりねに召喚され、魔界に帰還できなくなってしまい、ゆりねの家に居候することとなる悪魔。召喚者が死亡すれば強制的に魔界に送り返されるため、たびたび「ドロップキック」や第2の殺人技「ロイヤルコペンハーゲン」を繰り出して召喚者であるゆりねの始末を試みるものの返り討ちにあっている。魔貴族の出自で、魔界の農林水産省的なところで一番偉い人の娘。クズで、本人も認めるほどの馬鹿。氷ちゃん（浩二）などの自分より小さくて弱そうな下級悪魔に対しては横柄な態度をとり、挑発したり、いじめたりする。",
+        "alias": "邪神ちゃんさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "鈴木愛奈"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Oct. 28"
+            },
+            {
+                "name": "height",
+                "value": "150cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界"
+            },
+            {
+                "name": "appearance",
+                "value": "A beautiful blonde-haired, blue-eyed girl in the upper half of her body, a snake demon in the lower half."
+            },
+            {
+                "name": "ability",
+                "value": "Has regenerative powers equivalent to immortality and heals wounds by sealing them with superglue,good at cooking and housework and is particularly skilled at cooking."
+            },
+            {
+                "name": "likes",
+                "value": "purine, gambling, ハト男爵, Curry at Bondi's in Jimbocho."
+            },
+            {
+                "name": "dislikes",
+                "value": "flog,treat food without respect"
+            }
+        ]
+    },
+    {
+        "index_regex": "Yurine|花園|はなぞの|ゆりね|ハナゾノ|ユリネ",
+        "categories": ["person"],
+        "name": "ゆりね",
+        "description": "興味本位で邪神ちゃんを召喚した女子大生。邪神ちゃんが悪事を働いた際には容赦なく拷問を加えるが、バイト代でご飯を奢るといった優しい一面もあり、面倒見が良く周囲の悪魔や天使達から慕われている。",
+        "alias": "花園さん",
+        "flags": [
+            {
+                "isYurineDependency": true
+            }
+        ],
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "大森日雅"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Oct. 31"
+            },
+            {
+                "name": "height",
+                "value": "160cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "Wears an eyepatch on her left eye and likes to wear gothic lolita clothes.Tiny breasts"
+            },
+            {
+                "name": "ability",
+                "value": "The combat power to defeat(返り討ちにする) 邪神ちゃん. wears a petrification-proof bracelet."
+            },
+            {
+                "name": "likes",
+                "value": "Mayonnaise"
+            },
+            {
+                "name": "dislikes",
+                "value": "Cockroaches,Being pointed at by others."
+            }
+        ]
+    },
+    {
+        "index_regex": "Medusa|メデューサ|めでゅーさ",
+        "categories": ["person"],
+        "name": "メデューサ",
+        "description": "気弱で心優しく頼まれたら断れない性格。そのため親友である邪神ちゃんからよく金を無心され、アルバイトの稼ぎを全て渡してしまうこともあり、邪神ちゃんからATM呼ばわりされている。邪神ちゃんの幼馴染の悪魔であり、彼女に対して「私がいないとダメだから」と献身的に支え、裏切られたとしても「根は良い子」と擁護している。",
+        "alias": "メデューサさん",
+        "attributes": [
+            {
+                "name":  "voice_actor",
+                "value": "久保田未夢"
+            },
+            {
+                "name":  "gender",
+                "value":"female"
+            },
+            {
+                "name":  "birthday",
+                "value": "Jan. 4"
+            },
+            {
+                "name":  "height",
+                "value": "155cm"
+            },
+            {
+                "name":  "birthplace",
+                "value": "魔界"
+            },
+            {
+                "name":  "appearance",
+                "value": "Wears an ancient Egyptian nobleman-like costume and has the ability to petrify anyone who looks at her. In the human world, she hides her face by wearing a paper bag."
+            },
+            {
+                "name":  "ability",
+                "value": "To petrify human who looks at her(does not work on angels or demons)."
+            },
+            {
+                "name":  "likes",
+                "value": "邪神ちゃん"
+            },
+            {
+                "name":  "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Minos|ミノス|みのす",
+        "categories": ["person"],
+        "name": "ミノス",
+        "description": "邪神ちゃんやメデューサの幼馴染の悪魔であり、邪神ちゃんに会うために人間界に訪れ、初めは「人間一匹殺すのに手こずってるなんて悪魔としてカッコ悪い」と邪神ちゃんに苦言を呈し、ゆりねに 勝負を挑んでいたが、人間界を気に入ってからはゆりねの隣室に住むようになった。",
+        "alias": "ミノスさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "小見川千明"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Nov. 29"
+            },
+            {
+                "name": "height",
+                "value": "167cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界"
+            },
+            {
+                "name": "appearance",
+                "value": "Blue hair and red eyes, a short cut, and horns, and a glamorous figure. She often wears a T-shirt that says ビーフ100% that she bought in Harajuku."
+            },
+            {
+                "name": "ability",
+                "value": "Strong, but tends to solve things by force."
+            },
+            {
+                "name": "likes",
+                "value": "Milk delivery and work at construction sites as a バイト, working."
+            },
+            {
+                "name": "dislikes",
+                "value": "不明"
+            }
+        ]
+    },
+    {
+        "index_regex": "Persephone2|ペルセポネ2世|ペルセポネ２世|ペルセポネ二世|ぺるせぽねにせい|ペルちゃん|ぺるちゃん|ピコレッタ|ぴこれった",
+        "categories": ["person"],
+        "name": "ペルセポネ2世(ペルちゃん)",
+        "description": "邪神ちゃん達の恩師『ペルセポネ』の娘で冥界の王『ハーデス』を父に持つ冥界の姫。邪神ちゃんを訪ねて人間界へ来たものの、人間界の汚れた空気を吸うと吐血するほどの虚弱体質であったためガスマスク姿で各地を放浪。虚弱体質を鍛えるためトレーニングがてらミノスの部屋に居候することとなった。本名は春日井ピコレッタ。普段母親からは「ピコレッタ」と呼ばれるが魔界小学校のトイレにあった芳香剤の名前のため、本人はその名前で呼ばれるのを嫌がる。",
+        "alias": "ペルちゃんさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "小松未可子"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Feb. 14"
+            },
+            {
+                "name": "height",
+                "value": "146cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "冥界"
+            },
+            {
+                "name": "appearance",
+                "value": "Wears a black cloak and a gas mask, and has a suspicious appearance."
+            },
+            {
+                "name": "ability",
+                "value": "A master of the dropkick more than 邪神ちゃん, but she is weak and often coughs up blood. She is so weak that she breaks her legs after performing a dropkick."
+            },
+            {
+                "name": "likes",
+                "value": "ぽぽろん"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "KyonKyon|キョンキョン|きょんきょん",
+        "categories": ["person"],
+        "name": "キョンキョン",
+        "description": "自分の意思で行動できる上級キョンシー。パンダになってしまった双子の姉ランランと行動を共にしている。ゆりねの紹介で書店「ドラゴン書房」でアルバイトをしている。優しいが容赦しない苛烈な一面もあり。人間界で善行を積めば人間になれるという教えを信じている。邪神ちゃんとは友達になっている。",
+        "alias": "キョンキョンさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "山下七海"
+            },
+            {
+                "name":"gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "148cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界中国"
+            },
+            {
+                "name": "appearance",
+                "value": "Chinese girl-like dumpling head. Chinese-style ceremonial dress. Bigger breasts than ランラン."
+            },
+            {
+                "name": "ability",
+                "value": "The power to move her joints freely and has the power to compete with ミノス, but her body is fragile."
+            },
+            {
+                "name": "likes",
+                "value": "human"
+            },
+            {
+                "name": "dislikes",
+                "value": "Mochi rice"
+            }
+        ]
+    },
+    {
+        "index_regex": "RangRang|ランラン|らんらん",
+        "categories": ["person"],
+        "name": "ランラン",
+        "description": "自分の意思で行動できる上級キョンシーだが、魔界動物園で魔界パンダの『張飛くん』を怒らせた事で呪いを掛けられて今の姿に変わってしまっている。我を忘れて暴走する双子の姉キョンキョンのストッパー役を担っている。。邪神ちゃんとは友達になっている。",
+        "alias": "ランランさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "田中美海"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Sep. 23"
+            },
+            {
+                "name": "height",
+                "value": "148cm(30cm in panda form)"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界中国"
+            },
+            {
+                "name": "appearance",
+                "value": "Small pandas, usually painted on the chest worn by キョンキョン."
+            },
+            {
+                "name": "ability",
+                "value": "Can walk out of the clothes. Licking a strawberry-flavoured candy reverts them back to their original form for a short time."
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "Mochi rice"
+            }
+        ]
+    },
+    {
+        "index_regex": "Ecute|エキュート|えきゅーと",
+        "categories": ["person"],
+        "name": "エキュート",
+        "description": "ゆりねに興味を抱いた父の命を受け、ゆりねをヴァンパイア族一族の仲間にするために神保町にやって来た高貴なるヴァンパイア族の姫。傲慢な態度で振る舞うが、悪魔としての実力は低く、邪神ちゃんの不意を突いて攻撃しても彼女に軽く片手で受け止められるほど弱い。",
+        "alias": "エキュート",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "朝ノ瑠璃"
+            },
+            {
+                "name":"gender",
+                "value":"female"
+            },
+            {
+                "name": "birthday",
+                "value": "Nov. 11"
+            },
+            {
+                "name": "height",
+                "value": "138cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界トランシルバニアファミリー地方"
+            },
+            {
+                "name": "appearance",
+                "value": "A lovely appearance and claims to be the most noble, wise, and cute in the 魔界 because of her noble and wise vampire lineage."
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "Weak against dogs and bathing."
+            }
+        ]
+    },
+    {
+        "index_regex": "Atre|アトレ|あとれ",
+        "categories": ["person"],
+        "name": "アトレ",
+        "description": "ヴァンパイア族の姫エキュートの教育係として一緒に神保町にやって来たヴァンパイア族。他種族にも丁寧に接する真面目で良識的な性格だが、エキュートに対する躾は厳しく、邪神ちゃんに失礼な言動をしたエキュートを腹パンしてからヤクザの様な口調で叱っている。",
+        "alias": "アトレさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "長谷川玲奈"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Mar. 3"
+            },
+            {
+                "name": "height",
+                "value": "165cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界トランシルバニアファミリー地方"
+            },
+            {
+                "name": "appearance",
+                "value": "A beautiful girl with long black hair and has a whip-smart figure like ミノス and 遊佐."
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "She is weak against dogs."
+            }
+        ]
+    },
+    {
+        "index_regex":  "Beet|ベート|べーと",
+        "categories": ["person"],
+        "name": "ベート",
+        "description": "ゆりねが拾ってきた魔獣で、かつて人間界に迷い込み18世紀のフランス・ジェヴォーダン地方の人間を恐怖のどん底に陥れた",
+        "alias": "ベートさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "M・A・O"
+            },
+            {
+                "name": "gender",
+                "value": "unknown"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界"
+            },
+            {
+                "name": "appearance",
+                "value": "Looks like dog, but in a weird shape."
+            },
+            {
+                "name": "ability",
+                "value": "An offensive force that even the devil can't resist."
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    { 
+        "index_regex": "Yusa|遊佐|ゆさ|ユサ",
+        "categories": ["person"],
+        "name": "遊佐",
+        "description": "氷族の一員である上級悪魔で、清楚な物腰の美少女。氷ちゃんの姉。基本的に優しい性格の持ち主であり、妹をいじめる邪神ちゃんに対して敵愾心を抱いている一方で、逆に仲良くしてくれるゆりねに対しては好感を持っている。天使であるぺこらに対しても誠実に接し、邪神ちゃんが困っている時には助けたりする。",
+        "alias": "遊佐さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "荒浪和沙"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Feb. 22"
+            },
+            {
+                "name": "height",
+                "value": "162cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界"
+            },
+            {
+                "name": "appearance",
+                "value": "上級悪魔, a member of 氷族 and has the appearance of a beautiful girl with a clean and elegant manner."
+            },
+            {
+                "name": "ability",
+                "value": "She can cause a blizzard in the room and freeze the opponent by blowing her breath."
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "Insults to her face, which looks like a モグラ when she was a child."
+            }
+        ]
+    },
+    {
+        "index_regex": "Kouji|氷ちゃん|こおりちゃん|コオリチャン|浩二|こうじ|コウジ",
+        "categories": ["person"],
+        "name": "氷ちゃん",
+            "description": "氷族の一員である悪魔。姉である遊佐と同様に誠実で優しい性格の持ち主であり、天使であるぺこらにも分け隔てなく接している。邪神ちゃんにはいじめられたり、トラウマを植え付けられたりしているため、彼女のことを快く思っておらず、度々反抗心を見せることもしばしばで、邪神ちゃんが墓穴を掘ったり、ピンチになったりする時は、ほくそ笑んだりしている。邪神ちゃんからは「浩二」と呼ばれる。",
+        "alias": "氷ちゃんさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "寺田御子"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "80cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "魔界"
+            },
+            {
+                "name": "appearance",
+                "value": "A member of the 氷族 and has a face like a mole."
+            },
+            {
+                "name": "ability",
+                "value": "Can cool the room and freeze the opponent by blowing her breath."
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Persephone1|ペルセポネ|1世|１世|一世|ぺるせぽね|いっせい|先生|せんせい|センセイ|花子|はなこ|ハナコ|春日井|かすがい|カスガイ",
+        "categories": ["person"],
+        "name": "ペルセポネ1世",
+        "description": "邪神ちゃん、メデューサ、ミノスらの魔界学校時代の恩師。邪神ちゃんたちからは先生として慕われ信頼されている。邪神ちゃんに必殺ドロップキックを授けたのも彼女である。基本的に温和な性格だが、過激で茶目っけのある一面も併せ持つ。魔界教育委員会からの辞令でしばらく人間界に滞在することになり、リエールが通う児童養護施設「アイアンコマンド―」に赴任。本名は春日井ペルセポネ。人間界では春日井花子と名乗っている。大昔は天界にいて、リエールとは旧知の仲。",
+        "alias": "ペルセポネさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "小森未彩"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "冥界"
+            },
+            {
+                "name": "appearance",
+                "value": "Silver hair and long hair, and her right eye is always hidden by her hair. She is tall and has a glamorous figure, wearing a black robe."
+            },
+            {
+                "name": "ability",
+                "value": "Quite powerful, but weak like her daughter and sometimes coughs up blood."
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Azusa2|あずさ",
+        "categories": ["person"],
+        "name": "あずさ2号",
+        "description": "邪神ちゃんがペットとしてアマゾネスで購入した魔界バンビ。邪神ちゃんのドロップキックを食らって昇天してしまった",
+        "alias": "あずさ2号さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "不明"
+            },
+            {
+                "name": "gender",
+                "value": "不明"
+            },
+            {
+                "name": "birthday",
+                "value": "不明"
+            },
+            {
+                "name": "height",
+                "value": "不明"
+            },
+            {
+                "name": "birthplace",
+                "value": "不明"
+            },
+            {
+                "name": "appearance",
+                "value": "不明"
+            },
+            {
+                "name": "ability",
+                "value": "不明"
+            },
+            {
+                "name": "likes",
+                "value": "不明"
+            },
+            {
+                "name": "dislikes",
+                "value": "不明"
+            }
+        ]
+    },
+    {
+        "index_regex": "Tangan|単眼ちゃん|たんがんちゃん",
+        "categories": ["person"],
+        "name": "単眼ちゃん",
+        "description": "伝言用の下級悪魔で、邪神ちゃんがレベルアップしたときなどに現れ、役目を終えると自爆して亡くなってしまうが、魔界で再生してワンランク上の悪魔として生まれ変わる。",
+        "alias": "単眼ちゃんさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "影山灯"
+            },
+            {
+                "name": "gender",
+                "value": "不明"
+
+            },
+            {
+                "name": "birthday",
+                "value": "不明"
+            },
+            {
+                "name": "height",
+                "value": "不明"
+            },
+            {
+                "name": "birthplace",
+                "value": "不明"
+            },
+            {
+                "name": "appearance",
+                "value": "Small size devil has one eye."
+            },
+            {
+                "name": "ability",
+                "value": "不明"
+            },
+            {
+                "name": "likes",
+                "value": "不明"
+            },
+            {
+                "name": "dislikes",
+                "value": "不明"
+            }
+        ]
+    },
+    {
+        "index_regex": "Uozumi|魚住|うおずみ|ウオズミ",
+        "categories": ["person"],
+        "name": "魚住",
+        "description": "ミノスの父が経営する「松野組」の若頭。ミノスとはお嬢と呼ぶ間柄。",
+        "alias": "魚住さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "加藤康之"
+            },
+            {
+                "name": "gender",
+                "value": "unknown"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "unknown"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Pekora|ぺこら|ペコラ|田尻|堕天使",
+        "categories": ["person"],
+        "name": "ぺこら",
+        "description": "邪神ちゃんたち悪魔を駆除するために地上にやってきた上級天使だったが、天使の輪をなくしたために天界に帰ることができなくなった。いつもお腹を空かしていて、バイトをしているが微々たるお金にしかならず公園でホームレス生活をしている。生真面目な性格だが要領が悪く、あまつさえ不幸体質の持ち主。ゆりねのことは悪魔と結託した魔女と思って駆除対象としてたが、度々空腹を救われたりするうちに態度が軟化していき、それに伴い悪魔たちへ向ける目も変わっていった。天界にいたときは天使長だった。邪神ちゃんからは堕天使、「田尻」と呼ばれる。ぽぽろんがアイドルデビューしてからはぽぽろんのシールド（護衛）として雇われることがある。ぴのは元部下で、ぴのが天使見習いのころ、ぺこらのお世話係だった。",
+        "alias": "ぺこら様",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "小坂井祐莉絵"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Jul. 7"
+            },
+            {
+                "name": "height",
+                "value": "148cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "天界"
+            },
+            {
+                "name": "appearance",
+                "value": "She wears a black robe and black short boots."
+            },
+            {
+                "name": "ability",
+                "value": "Had angelic powers, but lost them when she lost the angel ring."
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Poporon|ぽぽろん|ポポロン|天使のえる|あまつか|のえる|ノエル",
+        "categories": ["person"],
+        "name": "ぽぽろん",
+        "description": "天使だがかなり腹黒い性格の持ち主で、自分の昇進の為に力を失ったぺこらを始末しようと画策する。邪神ちゃんがぺこらに差し入れとして持ってきた肉じゃが（TVアニメ版ではカレー）を地面に叩き落した結果、「食べ物を粗末にすることは許さない」という邪神ちゃんの（数少ないまともな）逆鱗に触れてボコボコにされた挙句、ガムテープで簀巻きにされて海へと放り投げられ、その後邪神ちゃんに天使の輪を食べられて天界に帰れなくなった（天使の輪がいつ復活するかはわからない）。ラーメン屋「創世記」でバイトをしながらアイドルを目指す「天使のえる」を名乗る。アイドルデビュー後もラーメン屋「創世記」でのバイトは続けている。ぺこらの元部下。天使見習いのころは、ぴのともにぺこらのお世話係だった。",
+        "alias": "ぽぽろん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "佐々木李子"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Apr. 20"
+            },
+            {
+                "name": "height",
+                "value": "156cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "天界"
+            },
+            {
+                "name": "appearance",
+                "value": "A beautiful angel with blonde hair and green eyes."
+            },
+            {
+                "name": "ability",
+                "value": "Had angelic powers, but lost them when she lost the angel ring."
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Lier|リエール|りえーる",
+        "categories": ["person"],
+        "name": "リエール",
+        "description": "ぺこら・ぴの・ぽぽろん達の「主」である神。堕落した人間達を地上ごと滅ぼす為に人間界にやってきたがその前に人間の生活を体験しようと考え児童養護施設「アイアンコマンドー」に孤児として入所している。悪魔と結託している天界の裏切り者であるぺこら・ぽぽろん・ぴのは抹殺対象と考えている。自身を害する邪神ちゃんのことを厄介に思っている反面、彼女と一緒にいるゆりねのことは得体が知れないので敵対したくないと思っている。",
+        "alias": "リエール様",
+        "flags": [
+            {
+                "isLierPhobia": true
+            }
+        ],
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "花井美春"
+            },
+            {
+                "name": "birthday",
+                "value": "Dec. 24"
+            },
+            {
+                "name": "height",
+                "value": "130cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "天界"
+            },
+            {
+                "name": "appearance",
+                "value": "幼女"
+            },
+            {
+                "name": "ability",
+                "value": "The power to cut the tail of 邪神ちゃん in half, but when ゆりね hit her, the damage caused her to pass out."
+            },
+            {
+                "name": "likes",
+                "value": "She likes the goods of パトラちゃん."
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Tachibana|Mei|橘|芽依|たちばな|めい|タチバナ|メイ",
+        "categories": ["person"],
+        "name": "橘芽依",
+        "description": "極度の可愛いもの好きで、欲しいものを手に入れるためなら職権乱用も辞さない。邪神ちゃんに一目惚れし、「心を盗んだ窃盗罪」と不当逮捕したり、ことあるごとに持ち帰ろうとしたり、写メを一緒に撮ろうとするが、当の本人には変態女と嫌がられている。邪神ちゃんに大蛇丸というオリジナルネームをつけている",
+        "alias": "橘さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "原奈津子"
+            },
+            {
+                "name":"gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "May 3"
+            },
+            {
+                "name": "height",
+                "value": "165cm"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "Beautiful and impeccable looking woman. "
+            },
+            {
+                "name": "ability",
+                "value": "Strong person who does not look like it."
+            },
+            {
+                "name": "likes",
+                "value": "She likes cute things."
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Ciba|Shigeru|千葉|茂|ちば|しげる|チバ|シゲル",
+        "categories": ["person"],
+        "name": "千葉茂",
+        "description": "温厚で優しいオタク。ラーメン屋でぽぽろん(天使のえる)に暴力を振おうとした邪神ちゃんに食ってかかって彼女のことを「クソ蛇女」などと罵った",
+        "alias": "千葉さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "落合福嗣"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Oct. 13"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name":"ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "天使のえる"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "OzakiHiro|尾崎|おざき|オサキ",
+        "categories": ["person"],
+        "name": "尾崎比呂",
+        "description": "温厚で優しいオタク。ラーメン屋でぽぽろん(天使のえる)に暴力を振おうとした邪神ちゃんに食ってかかった",
+        "alias": "尾崎さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "福間竣兵"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "Oct. 13"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "天使のえる"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Katsura|Daigoro|桂|かつら|カツラ",
+        "categories": ["person"],
+        "name": "桂大五郎",
+        "description": "自分の主観を絶対としているタイプであり、それから外れた物を扱き下ろしている傲慢",
+        "alias": "桂さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "鈴木崚汰"
+            },
+            {
+                "name": "gender",
+                "value": "male"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "Nervous appearance with glasses and a thin body, but his belly is exposed when were a swimsuit."
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "The evaluation of illustrators on the illustration SNS."
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Tanahashi|棚橋|たなはし|タナハシ",
+        "categories": ["person"],
+        "name": "棚橋",
+        "description" : "ぺこらのバイト先に必ずいる。ぺこらのことは「バイトぉ」と呼び捨てにする。",
+        "alias": "棚橋さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "稲葉和彦"
+            },
+            {
+                "name": "gender",
+                "value": "male"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "ガテン系 guy with a sunburned skin and a cloth wrapped around his head."
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Daichi|大地|だいち|ダイチ",
+        "categories": ["person"],
+        "name": "大地",
+        "description": "不明",
+        "alias": "大地さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "MoeMi"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "little girl"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Kuroki|黒木|くろき|クロキ",
+        "categories": ["person"], 
+        "name": "黒木",
+        "description": "不明",
+        "alias": "黒木さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "unknown"
+            },
+            {
+                "name": "gender",
+                "value": "unknown"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown" 
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "unknown"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Miura|Tomokazu|身宇裸|みうら|ミウラ",
+        "categories": ["person"],
+        "name": "身宇裸 友和",
+        "description": "バーで邪神ちゃんと飲み比べをした",
+        "alias": "身宇裸さん", 
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "津田健次郎"
+            },
+            {
+                "name": "gender",
+                "value": "male"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "unknown"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Kumozi|Sorata|雲地|空太|くもじ|そらた",
+        "categories": ["person"],
+        "name": "雲地空太",
+        "description": "虫歯の痛みで苦しむ邪神ちゃんに頭突きをした",
+        "alias": "雲地さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "桜木つぐみ"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "unknown"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Patra|パトラ|ぱとら",
+        "categories": ["person"],
+        "name": "パトラ",
+        "description": "unknown",
+        "alias": "パトラさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "柴田柚巴"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "little girl"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"  
+            }
+        ]
+    },
+    {
+        "index_regex": "Horus|ホルス|ほるす",
+        "categories": ["person"],
+        "name": "ホルス", 
+        "description": "unknown",
+        "alias": "ホルスさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "山田親之條"
+            },
+            {
+                "name": "gender",
+                "value": "unknown"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "bird"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "BaronPigeon|ハト男爵|鳩男爵",
+        "categories": ["person"],
+        "name": "ハト男爵",
+        "description": "特撮のキャラで邪神ちゃんにとって憧憬の対象。とても悪い奴を自称している",
+        "alias": "ハト男爵さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "真殿光昭"
+            },
+            {
+                "name": "gender",
+                "value": "female"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "He wears a mask of a dove, a symbol of peace."
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Mandragora|マンドラゴラ",
+        "categories": ["person"],
+        "name": "マンドラゴラ",
+        "description": "ミノスがゆりねにプレゼントした魔界のおもちゃ。お腹を押すと断末魔の叫び声を上げる。ゆりねに気に入られていたが、邪神ちゃんに踏み潰され壊れてしまった",
+        "alias": "マンドラゴラさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "金田朋子"
+            },
+            {
+                "name": "gender",
+                "value": "unknown"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "mandragora"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Zizou|地蔵|じぞう|ジゾウ|戦闘力",
+        "categories": ["person"],
+        "name": "地蔵",
+        "description": "お供え物を奪った邪神ちゃんに罰を与えた地蔵。邪神ちゃんに慈悲をかけることなく攻撃を加え、戦闘の末、彼女と和解、その後芽依にに持ち帰られコレクションにされる",
+        "alias": "地蔵さん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "中尾隆聖(戦闘力53万)"
+            },
+            {
+                "name": "gender",
+                "value": "unknown"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown"
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "地蔵"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "unknown"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            }
+        ]
+    },
+    {
+        "index_regex": "Hatsune|Miku|初音|ミク|はつね|みく|ハツネ|ミク|ネギ|ねぎ|葱",
+        "categories": ["person"],
+        "name": "初音ミク",
+        "description": " 邪神ちゃんとまめアニメ北海道編主題歌および第3期9話エンディングテーマを歌う",
+        "alias": "ミクさん",
+        "attributes": [
+            {
+                "name": "voice_actor",
+                "value": "藤田咲"
+            },
+            {
+                "name": "gender",
+                "value": "fiemale"
+            },
+            {
+                "name": "birthday",
+                "value": "unknown" 
+            },
+            {
+                "name": "height",
+                "value": "unknown"
+            },
+            {
+                "name": "birthplace",
+                "value": "unknown"
+            },
+            {
+                "name": "appearance",
+                "value": "初音ミク"
+            },
+            {
+                "name": "ability",
+                "value": "unknown"
+            },
+            {
+                "name": "likes",
+                "value": "Song, ネギ"
+            },
+            {
+                "name": "dislikes",
+                "value": "unknown"
+            } 
+        ]
+    }
+]
