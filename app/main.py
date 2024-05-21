@@ -7,7 +7,7 @@ from lib import search_terminology
 from lib import search_additional_rules
 from lib import ChatMessage, ChatRole, TermCategory
 from lib import truncate_text
-from constants import USER_NAME, ASSISTANT_NAME, MAX_CHAT_LOG_LENGTH, TITLE, LOG_LEVEL,  HASHED_ACCESS_TOKENS, IS_CLOSED, HASHED_INDEFINITE_ACCESS_TOKENS
+from constants import USER_NAME, ASSISTANT_NAME, MAX_CHAT_LOG_LENGTH, TITLE, LOG_LEVEL,  HASHED_ACCESS_TOKENS, IS_CLOSED, HASHED_INDEFINITE_ACCESS_TOKENS, MAX_RESPONSE_LENGTH
 
 from streamlit.logger import get_logger
 
@@ -68,7 +68,7 @@ if user_message:
     logger.info(f"generated response: {response}", extra=logger_extra)
     logger.info(f"claude usage: {claude_usage}", extra=logger_extra)
     
-    ai_message = truncate_text(response, 80)
+    ai_message = truncate_text(response, MAX_RESPONSE_LENGTH) or truncate_text(response, MAX_RESPONSE_LENGTH*2, 1) or response
     with st.chat_message(ASSISTANT_NAME):
         st.write(ai_message)
         logger.info(f"sent message: {ai_message}", extra=logger_extra)
