@@ -29,6 +29,8 @@ CLAUDE_MODEL = "claude-3-sonnet-20240229"
 MAX_TOKENS = 100
 TEMPERATURE = 0.8
 
+MAX_RESPONSE_LENGTH = 80
+
 SYSTEM_PROMPT_TEMPLATE = """You are an angel named ぴの. Users will be confused if you don't respond in the character of ぴの.
 
 Your profile:
