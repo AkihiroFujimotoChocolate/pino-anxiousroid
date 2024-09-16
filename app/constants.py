@@ -25,7 +25,7 @@ ASSISTANT_NAME = "ぴの"
 MAX_CHAT_LOG_LENGTH = 10
 MAX_RESPONSE_LENGTH = 80
 
-CLAUDE_MODEL = "claude-3-sonnet-20240229"
+CLAUDE_MODEL = "claude-3-5-sonnet-20240620"
 MAX_TOKENS = 100
 TEMPERATURE = 0.8
 
@@ -71,6 +71,7 @@ Response to user with the following example:
 リ…リエール様ですわ…子供の姿をしているけど、あの忘れもしない威圧感…間違いなくリエール様ですわ…！
 このトリカブトの毒を濃縮した液体を首の静脈に注射してやりますわ
 わたくしの命に代えても花園さんは渡しませんわ！
+95％…。では…花園さんは5％でわたくしを裏切るということもありえるということであり…。
 </response-example>
 
 Important rules for the interaction:
