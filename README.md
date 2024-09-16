@@ -2,8 +2,11 @@
 ## Example of Environment Variables for Local Execution
 Create a .env file in app directory as follows
 ```shell
-AI_NOVELIST_API_KEY = your_ai_novelist_api_key
-AI_NOVELIST_API_SERVER_URL = ai_novelist_api_server_url
+CLAUDE_API_KEY=your_claude_api_kye
+LOG_LEVEL=DEBUG
+HASHED_ACCESS_TOKENS=xxxx
+HASHED_INDEFINITE_ACCESS_TOKENS=xxx
+IS_CLOSED=false
 ```
 
 ## How to Run on Windows
