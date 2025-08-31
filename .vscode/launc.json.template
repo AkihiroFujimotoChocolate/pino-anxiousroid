@@ -1,23 +1,40 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-      {
-          "name": "debug",
-          "type": "python",
-          "request": "launch",
-          "python": "${workspaceFolder}/.venv/bin/python", //プロジェクトフォルダーの外に仮想環境を作った場合は仮想環境に入った状態で'which python'コマンドで確認したpythonの実行環境パスを入れてください
-          "module": "streamlit",
-          "console": "integratedTerminal",
-          "env": {
-              "CLAUDE_API_KEY": "your_claude_api_key",
-              "LOG_LEVEL": "DEBUG" //DEBUG, INFO, WARNING, ERROR, CRITICAL
-          },
-          "args": [
-              "run",
-              "${workspaceFolder}/app/main.py",
-              "--server.port",
-              "5678"
-          ]
-      }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug",
+            "type": "python",
+            "request": "launch",
+            "python": "${workspaceFolder}/.venv/bin/python", //プロジェクトフォルダーの外に仮想環境を作った場合は仮想環境に入った状態で'which python'コマンドで確認したpythonの実行環境パスを入れてください
+            "module": "streamlit",
+            "console": "integratedTerminal",
+            "env": {
+                "CLAUDE_API_KEY": "your_claude_api_key",
+                "LOG_LEVEL": "DEBUG" //DEBUG, INFO, WARNING, ERROR, CRITICAL
+            },
+            "args": [
+                "run",
+                "${workspaceFolder}/app/main.py",
+                "--server.port",
+                "5678"
+            ]
+        },
+        {
+            "name": "Python FastAPI: app/api.py",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "${workspaceFolder}/.venv/bin/python", //プロジェクトフォルダーの外に仮想環境を作った場合は仮想環境に入った状態で'which python'コマンドで確認したpythonの実行環境パスを入れてください
+            "cwd": "${workspaceFolder}/app",
+            "module": "uvicorn",
+            "args": [
+                "api:app",
+                "--reload"
+            ],
+            "jinja": true,
+            "env": {
+                "CLAUDE_API_KEY": "your_claude_api_key",
+                "LOG_LEVEL": "DEBUG" //DEBUG, INFO, WARNING, ERROR, CRITICAL
+            }
+        }
+    ]
 }

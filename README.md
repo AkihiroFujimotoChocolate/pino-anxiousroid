@@ -22,7 +22,7 @@ python3.11 -m venv .venv
 ```powershell
 pip install -r requirements.txt
 ```
-4. Run the FastAPI App
+4. Run the Streamlit App
 ```powershell
 streamlit run ./app/main.py
 ```
@@ -40,7 +40,77 @@ source .venv/bin/activate
 ```shell
 pip install -r requirements.txt
 ```
-4. Run the FastAPI App
+4. Run the Streamlit App
 ```shell
 streamlit run ./app/main.py
 ```
+
+## Web API Endpoint
+
+This application also provides a FastAPI-based Web API endpoint for chat functionality.
+
+### Running the API Server
+
+To start the API server:
+
+```shell
+# Activate virtual environment (if not already active)
+source .venv/bin/activate
+
+# Start the FastAPI server
+cd app
+python api.py
+```
+
+The API server will start on `http://localhost:8000`
+
+### Testing the API Endpoint
+
+**Endpoint**: `POST /api/chat/v0.1`
+
+**Request Format**:
+```json
+{
+  "request_id": "optional-unique-id",
+  "origin": {
+    "platform": "web"
+  },
+  "author": {
+    "user_id": "user123"
+  },
+  "message": {
+    "text": "こんにちは"
+  }
+}
+```
+
+**Response Format**:
+```json
+{
+  "request_id": "optional-unique-id",
+  "status": "ok",
+  "messages": ["ぴのと申します。こんにちはですわ！"],
+  "fallback_used": false
+}
+```
+
+**Example using curl**:
+```shell
+curl -X POST "http://localhost:8000/api/chat/v0.1" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "author": {"user_id": "test_user"},
+    "message": {"text": "Hello!"}
+  }'
+```
+
+**Health Check**:
+```shell
+curl http://localhost:8000/health
+```
+
+### API Documentation
+
+Once the server is running, you can access the interactive API documentation at:
+- Swagger UI: `http://localhost:8000/docs`
+- ReDoc: `http://localhost:8000/redoc`
