@@ -2,7 +2,7 @@ import re
 import json
 
 from .models import Term, TermCategory
-from constants import TERMINOLOGY_FILE_PATH
+from app.constants import TERMINOLOGY_FILE_PATH
 
 terminology: list[Term] = []
 
