@@ -7,7 +7,39 @@ LOG_LEVEL=DEBUG
 HASHED_ACCESS_TOKENS=xxxx
 HASHED_INDEFINITE_ACCESS_TOKENS=xxx
 IS_CLOSED=false
+
+# Conversation History Configuration (optional)
+CONV_HISTORY_PATH_TEMPLATE=data/conversations/{user_id}.jsonl
+MAX_CHAT_LOG_LENGTH=10
+CONV_HISTORY_MAX_SIZE_MB=50
+CONV_HISTORY_ARCHIVE_FOLDER=data/conversations/archive/
 ```
+
+### Conversation History Environment Variables
+
+- `CONV_HISTORY_PATH_TEMPLATE`: Path template for conversation history files. Use `{user_id}` as placeholder. Default: `data/conversations/{user_id}.jsonl`
+- `MAX_CHAT_LOG_LENGTH`: Number of messages from history to use for Claude responses. Default: `10`
+- `CONV_HISTORY_MAX_SIZE_MB`: Maximum file size (MB) before archiving old conversation files. Default: `50`
+- `CONV_HISTORY_ARCHIVE_FOLDER`: Path to archive folder for old conversation history files. Default: `data/conversations/archive/`
+
+### Conversation History File Format
+
+The conversation history is stored in JSONL (JSON Lines) format. Each line contains a single conversation message:
+
+```json
+{"user_id": "user123", "platform": "discord", "timestamp": "2024-01-01T12:00:00Z", "role": "user", "text": "Hello"}
+{"user_id": "user123", "platform": "discord", "timestamp": "2024-01-01T12:00:01Z", "role": "assistant", "text": "Hello! How can I help you?"}
+```
+
+**Field Descriptions:**
+- `user_id`: User identifier from the request
+- `platform`: Platform identifier from the request origin
+- `timestamp`: ISO 8601 UTC timestamp with 'Z' suffix
+- `role`: Either "user" or "assistant"
+- `text`: The message content
+
+**Archiving Behavior:**
+When a conversation file exceeds the configured maximum size, it is automatically moved to the archive folder with a timestamp suffix (e.g., `user123_20240101_120000.jsonl`). A new conversation file is then created for ongoing conversations.
 
 ## How to Run on Windows
 1. Create a python v3.11 virtual environment in your project directory
@@ -58,8 +90,7 @@ To start the API server:
 source .venv/bin/activate
 
 # Start the FastAPI server
-cd app
-python api.py
+PYTHONPATH=$(pwd)/app python -m uvicorn app.api:app
 ```
 
 The API server will start on `http://localhost:8000`
