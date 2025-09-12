@@ -24,14 +24,15 @@
             "type": "debugpy",
             "request": "launch",
             "python": "${workspaceFolder}/.venv/bin/python", //プロジェクトフォルダーの外に仮想環境を作った場合は仮想環境に入った状態で'which python'コマンドで確認したpythonの実行環境パスを入れてください
-            "cwd": "${workspaceFolder}/app",
+            "cwd": "${workspaceFolder}",
             "module": "uvicorn",
             "args": [
-                "api:app",
+                "app.api:app",
                 "--reload"
             ],
             "jinja": true,
             "env": {
+                "PYTHONPATH": "${workspaceFolder}/app",
                 "CLAUDE_API_KEY": "your_claude_api_key",
                 "LOG_LEVEL": "DEBUG" //DEBUG, INFO, WARNING, ERROR, CRITICAL
             }
