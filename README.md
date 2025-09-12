@@ -90,7 +90,7 @@ To start the API server:
 source .venv/bin/activate
 
 # Start the FastAPI server
-python -m uvicorn app.api:app --reload --env-file app/.env
+PYTHONPATH=$(pwd)/app python -m uvicorn app.api:app
 ```
 
 The API server will start on `http://localhost:8000`

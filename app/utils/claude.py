@@ -5,7 +5,7 @@ from typing import Optional
 import anthropic
 import pystache
 
-from app.constants import (
+from constants import (
     CLAUDE_API_KEY, MAX_TOKENS, TEMPERATURE,
     SYSTEM_PROMPT_TEMPLATE, ASSISTANT_PROMPT_TEMPLATE, RESPONSE_POSTFIX, CLAUDE_MODEL
 )

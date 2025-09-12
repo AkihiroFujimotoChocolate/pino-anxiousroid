@@ -2,7 +2,7 @@ import re
 import json
 
 from .models import AditionalRule
-from app.constants import ADDITIONAL_RULES_FILE_PATH
+from constants import ADDITIONAL_RULES_FILE_PATH
 
 additional_rules: list[AditionalRule] = []
 
