@@ -17,6 +17,6 @@ def search_additional_rules(query:str) -> list[AditionalRule]:
 def __init__():
     global additional_rules
     
-    file = open(ADDITIONAL_RULES_FILE_PATH, "r")
+    file = open(ADDITIONAL_RULES_FILE_PATH, "r", encoding='utf-8')
     data = json.load(file)
     additional_rules = [AditionalRule(**rule) for rule in data]                                   

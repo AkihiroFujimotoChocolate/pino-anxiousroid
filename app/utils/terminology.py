@@ -17,6 +17,6 @@ def search_terminology(query: str, category: TermCategory | None = None) -> list
 def __init__():
     global terminology
     
-    file = open(TERMINOLOGY_FILE_PATH, "r")
+    file = open(TERMINOLOGY_FILE_PATH, "r", encoding='utf-8')
     data = json.load(file)
     terminology = [Term(**glossary) for glossary in data]                                   
