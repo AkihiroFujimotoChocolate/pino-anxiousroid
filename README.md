@@ -83,7 +83,16 @@ This application also provides a FastAPI-based Web API endpoint for chat functio
 
 ### Running the API Server
 
-To start the API server:
+To start the API server on Windows:
+
+```powershell
+# Activate virtual environment (if not already active)
+.\.venv\Scripts\Activate.ps1
+# Start the FastAPI server
+cmd /c "set PYTHONPATH=%cd%\app && python -m uvicorn app.api:app"
+```
+
+To start the API server on Linux:
 
 ```shell
 # Activate virtual environment (if not already active)
